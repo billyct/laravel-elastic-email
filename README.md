@@ -43,7 +43,7 @@ $client = app(ElasticEmailClient\ElasticClient::class);
 $client->Contact->Add(...);
 
 
-or short code：
+// or short code：
 
 Billyct\ElasticEmail\ElasticEmail::addContact('your@mail.com', 'your-list-name', ['field_1' => 'test']);
 ```
