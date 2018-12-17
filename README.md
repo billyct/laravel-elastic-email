@@ -24,7 +24,14 @@ ELASTIC_EMAIL_PUBLIC_ACCOUNT_ID=<Add your account>
 [3] If you are using laravel < 5.5
 
 Add provider to your config/app.php file.
-``` Billyct\ElasticEmail\ElasticEmailServiceProvider::class```` 
+
+``` 
+'providers' => [
+	// other providers
+	Billyct\ElasticEmail\ElasticEmailServiceProvider::class,
+]
+
+```
 
 ## Usage
 
